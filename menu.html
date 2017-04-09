@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <title>Menu - Red Dragon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>  <!-- To ensure proper rendering and touch zooming on mobile devices --> 
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  <!-- Latest compiled JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  <!-- jQuery library -->
+  <script src="scripts/main.js"></script> <!--script file-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuIMvPqyw2jTIW5PQ8ml3sf1rKkFKkyoE&callback=myMap"></script> <!-- API AIzaSyDuIMvPqyw2jTIW5PQ8ml3sf1rKkFKkyoE -->
+  <link rel="icon" href="logo.jpg">
+  <link rel="stylesheet" href="styles/main.css"/>
+  <link rel="stylesheet" href="styles/contacts.css"/>
+  <link rel="stylesheet" href="styles/menu.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> <!-- icons -->
+</head>
+
+<body>
+<header id="headeris">
+<div class="container_h1">
+
+<!--menu icon appears on small screens-->
+<div class="menu">
+ <div></div>
+ <div></div>
+ <div></div>
+</div>
+
+<!-- fb icon-->
+<div class="header_facebook_icon">
+  <a href="#" class="fa" style="font-size:2em">&#xf09a;</a> 
+</div>
+
+<!-- logo -->
+<img class="logo" alt="logo" src="logo.jpg" height="150" width="180"/>
+
+<!-- top navigation -->
+<div class="top_nav">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contacts.html">Contacts</a></li>
+</div>
+
+</div>
+
+<!--navigation for small screens-->
+<div class="small_nav">
+    <a href="home.html"><li>Home</li></a>
+    <a href="menu.html"><li>Menu</li></a>
+    <a href="contacts.html"><li>Contacts</li></a>
+</div>
+</header>
+
+<!-- Main content -->
+<div id="div1" class="main_container">
+
+<div class="menu_names">
+	<li><a href="#snacks">Snacks</a></li>
+    <li><a href="#salads">Salads</a></li>
+    <li><a href="#soups">Soups</a></li>
+    <li><a href="#chicken">Chicken</a></li>
+    <li><a href="#pork">Pork</a></li>
+    <li><a href="#beef">Beef</a></li>
+    <li><a href="#sushi">Sushi</a></li>
+</div>
+
+<div class="menu_content">
+
+<!-- SNACKS-->
+<div class="snacks_menu">
+  <h5 id="snacks">Snacks</h5>
+  <div class="food_menu_images">
+    <div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/snacks/snacks01.jpg"/>
+	  <div class="menu_item_caption">
+        <span class="menu_item_title">Chinese spring rolls with pork</span>
+	    <span class="menu_item_price">£3,95</span>
+		<p class="menu_item_description">Pancakes with pork bacon, soy sprouts, carrots, onions, Chinese black mushrooms</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/snacks/snacks02.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Fried bread</span>
+	    <span class="menu_item_price">£4,95</span>
+		<p class="menu_item_description">Bread, mayonnaise, cheese</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/snacks/snacks03.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Crispy squid rings</span>
+	    <span class="menu_item_price">£4,50</span>
+		<p class="menu_item_description">Chicken, Chinese cabbage, Chinese black mushrooms</p>
+	  </div>
+	</div>
+	<br>
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/snacks/snacks04.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Spring rolls with chicken</span>
+	    <span class="menu_item_price">£4,50</span>
+		<p class="menu_item_description">Chicken, Chinese cabbage, Chinese black mushrooms</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/snacks/snacks05.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Fried potatoes with tomato sauce</span>
+	    <span class="menu_item_price">£2,15</span>
+		<p class="menu_item_description">Potatoes, tamato sauce.</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/snacks/snacks06.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Deep fried chicken wings</span>
+	    <span class="menu_item_price">£3,95</span>
+		<p class="menu_item_description">Chicken wings, red pepper, chili pepper</p>
+	  </div>
+	</div>
+	
+  </div>
+  
+</div>
+<hr>
+<!-- SALADS-->
+
+<div class="salads_menu">
+  <h5 id="salads">Salads</h5>
+  <div class="food_menu_images">
+    <div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/salads/salads01.jpg"/>
+	  <div class="menu_item_caption">
+        <span class="menu_item_title">Mixed vegetable salad with chicken</span>
+	    <span class="menu_item_price">£3,95</span>
+		<p class="menu_item_description">Chicken, Chinese cabbage, carrots, cucumbers, chinese noodles</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/salads/salads02.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Mixed vegetable salad with sesam souce</span>
+	    <span class="menu_item_price">£3,85</span>
+		<p class="menu_item_description">Beijing cabbage, cucumber, noodles, carrots, red pepper, Chinese black mushrooms, sesame sauce</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/salads/salads03.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Beijing salad</span>
+	    <span class="menu_item_price">£4,50</span>
+		<p class="menu_item_description">Lettuce, ginger, pepper, leek, special sauce</p>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- SOUPS-->
+
+<div class="soups_menu">
+  <h5 id="soups">Soups</h5>
+  <div class="food_menu_images">
+    <div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/soups/soups01.jpg"/>
+	  <div class="menu_item_caption">
+        <span class="menu_item_title">Chenese hot and sour soup</span>
+	    <span class="menu_item_price">£1,85</span>
+		<p class="menu_item_description">Tomatoes, Chinese black mushrooms, bamboo shoots, bean sprouts, cucumbers, eggs</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/soups/soups02.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Chenese white mushrooms soup with chicken</span>
+	    <span class="menu_item_price">£1,85</span>
+		<p class="menu_item_description">Chicken fillet, Chinese white mushrooms, carrots</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/soups/soups03.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Spicy chicken soup</span>
+	    <span class="menu_item_price">£2,55</span>
+		<p class="menu_item_description">Chicken, Chinese cabbage, soy daijin, Chinese black mushrooms, chili pepper</p>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- CHICKEN-->
+
+<div class="chicken_menu">
+  <h5 id="chicken">Chicken dishes</h5>
+  <div class="food_menu_images">
+    <div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/chicken/chicken01.jpg"/>
+	  <div class="menu_item_caption">
+        <span class="menu_item_title">Gong bao chicken</span>
+	    <span class="menu_item_price">£5,60</span>
+		<p class="menu_item_description">Chicken, onion, bell pepper, carrots, Chinese black mushrooms, nuts</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/chicken/chicken02.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Delicious chicken</span>
+	    <span class="menu_item_price">£5,80</span>
+		<p class="menu_item_description">Chicken with sweet and sour sauce</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/chicken/chicken03.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Spicy chicken</span>
+	    <span class="menu_item_price">£5,99</span>
+		<p class="menu_item_description">Chicken, lettuce, leeks, chili peppers</p>
+	  </div>
+	</div>
+	<br>
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/chicken/chicken04.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Special taste chicken</span>
+	    <span class="menu_item_price">£5,70</span>
+		<p class="menu_item_description">Chicken, sesame, sweet and sour sauce</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/chicken/chicken05.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Guo bao chicken</span>
+	    <span class="menu_item_price">£5,75</span>
+		<p class="menu_item_description">Chicken, peppers</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/chicken/chicken06.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Chery flavor chicken</span>
+	    <span class="menu_item_price">£5,90</span>
+		<p class="menu_item_description">Chicken, carrots, peas</p>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- PORK-->
+
+<div class="food_menu">
+  <h5 id="pork">Pork dishes</h5>
+  <div class="food_menu_images">
+    <div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/pork/pork01.jpg"/>
+	  <div class="menu_item_caption">
+        <span class="menu_item_title">Spicy boiled pork</span>
+	    <span class="menu_item_price">£5,99</span>
+		<p class="menu_item_description">Pork, salad, chili pepper, leek</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/pork/pork02.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Gong bao pork</span>
+	    <span class="menu_item_price">£5,50</span>
+		<p class="menu_item_description">Pork ham, carrots, peppers, onions, peanuts, Chinese black mushrooms</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/pork/pork03.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Pork with sweet and sour souce</span>
+	    <span class="menu_item_price">£5,69</span>
+		<p class="menu_item_description">Pork ham, sweet and sour sauce</p>
+	  </div>
+	</div>
+	<br>
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/pork/pork04.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Yu xiang pork</span>
+	    <span class="menu_item_price">£5,70</span>
+		<p class="menu_item_description">Pork, shredded bamboo shoots, bell pepper, onion, Chinese black mushrooms</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/pork/pork05.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Sweet and sour pork ribs</span>
+	    <span class="menu_item_price">£5,75</span>
+		<p class="menu_item_description">Pork ribs, carrots, cucumbers</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/pork/pork06.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Guo bao pork</span>
+	    <span class="menu_item_price">£5,90</span>
+		<p class="menu_item_description">Pork, peppers</p>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- BEEF-->
+
+<div class="food_menu">
+  <h5 id="beef">Beef dishes</h5>
+  <div class="food_menu_images">
+    <div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/beef/beef01.jpg"/>
+	  <div class="menu_item_caption">
+        <span class="menu_item_title">Spicy boiled pork</span>
+	    <span class="menu_item_price">£6,90</span>
+		<p class="menu_item_description">Beef, peppers, onions, celery</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/beef/beef02.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Gong bao pork</span>
+	    <span class="menu_item_price">£6,80</span>
+		<p class="menu_item_description">Beef, carrots, red pepper, onion</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/beef/beef03.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Pork with sweet and sour souce</span>
+	    <span class="menu_item_price">£6,85</span>
+		<p class="menu_item_description">Beef, five kinds of Chinese spices, seafood sauce</p>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<hr>
+
+<!-- SUSHI-->
+
+<div class="food_menu">
+  <h5 id="sushi">Sushi</h5>
+  <div class="food_menu_images">
+    <div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi01.jpg"/>
+	  <div class="menu_item_caption">
+        <span class="menu_item_title">Salmon mango maki</span>
+	    <span class="menu_item_price">£4,89</span>
+		<p class="menu_item_description">Salmon, mango, crab sticks, masage roe, cucumber. 8 pcs</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi02.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">AVocado maki</span>
+	    <span class="menu_item_price">£2,29</span>
+		<p class="menu_item_description">Avocado. 8 pieces</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi03.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Sake maki</span>
+	    <span class="menu_item_price">£4,69</span>
+		<p class="menu_item_description">Salmon. 8 pieces</p>
+	  </div>
+	</div>
+	<br>
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi04.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Ebi maki</span>
+	    <span class="menu_item_price">£4,29</span>
+		<p class="menu_item_description">Shrimp, Sesame, tempura. 8 pc</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi05.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Chicken maki</span>
+	    <span class="menu_item_price">£4,35</span>
+		<p class="menu_item_description">Chicken, cheese and sesame. 8 pcs</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi06.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Maguro maki</span>
+	    <span class="menu_item_price">£4,29</span>
+		<p class="menu_item_description">Canned tuna, crab sticks, masage roe, cucumber. 8 pieces</p>
+	  </div>
+	</div>
+	<br>
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi07.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Salmon avocado maki</span>
+	    <span class="menu_item_price">£4,89</span>
+		<p class="menu_item_description">Salmon, avocado, crab stick, masage caviar eggs. 8 pcs</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi08.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Philadelphia</span>
+	    <span class="menu_item_price">£4,69</span>
+		<p class="menu_item_description">Salmon, cucumber, crab sticks, eggs. 8 pcs</p>
+	  </div>
+	</div>
+	
+	<div class="menu_item">
+      <img alt="image" class="menu_item_image" src="images/sushi/sushi09.jpg"/>
+      <div class="menu_item_caption">
+	    <span class="menu_item_title">Squid maki</span>
+	    <span class="menu_item_price">£4,40</span>
+		<p class="menu_item_description">Squid, sesame, cucumber. 8 pieces</p>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<a href="#headeris" class="to_top">To top</a>
+
+</div>
+</div>
+
+
+
+<!-- footer -->
+<footer>
+<div class="footer_container">
+
+<div class="site_info">
+  <span>© 2017</span> 
+  <a href="home.html" >Chinese Restorant Red Dragon.</a>
+  <a href="http://www.mantasramanauskas.com/">Web designed by M.R.</a>
+</div>
+
+<!-- logo -->
+<img class="footer_logo" alt="logo" src="footer_logo.jpg"/>
+
+<!-- footer fb icon-->
+
+<div class="footer_facebook_icon">
+  <a href="#" class="fa" style="font-size:2em">&#xf09a;</a> 
+</div>
+
+</div>
+
+</footer>
+
+
+
+</body>
+
+
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8"/>
+  <title>Contacts - Red Dragon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>  <!-- To ensure proper rendering and touch zooming on mobile devices --> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  <!-- jQuery library -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  <!-- Latest compiled JavaScript -->
+  <script src="scripts/main.js"></script> <!--script file-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuIMvPqyw2jTIW5PQ8ml3sf1rKkFKkyoE&callback=myMap"></script> <!-- API AIzaSyDuIMvPqyw2jTIW5PQ8ml3sf1rKkFKkyoE -->
+  <link rel="icon" href="logo.jpg">
+  <link rel="stylesheet" href="styles/main.css"/>
+  <link rel="stylesheet" href="styles/contacts.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> <!-- icons -->
+  
+</head>
+
+<body>
+
+<header>
+
+<div class="container_h1">
+
+<!--menu icon appears on small screens-->
+<div class="menu">
+ <div></div>
+ <div></div>
+ <div></div>
+</div>
+
+<!-- fb icon-->
+<div class="header_facebook_icon">
+  <a href="#" class="fa" style="font-size:2em">&#xf09a;</a> 
+</div>
+
+<!-- logo -->
+<img class="logo" alt="logo" src="logo.jpg" height="150" width="180"/>
+
+<!-- top navigation -->
+<div class="top_nav">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contacts.html">Contacts</a></li>
+</div>
+
+</div>
+
+<!--navigation for small screens-->
+<div class="small_nav">
+    <a href="home.html"><li>Home</li></a>
+    <a href="menu.html"><li>Menu</li></a>
+    <a href="contacts.html"><li>Contacts</li></a>
+</div>
+
+</header>
+
+<!-- Main content -->
+<div class="contacts_main_container">
+
+<h1><a href="#">Contacts</a></h1>
+
+<div class="addesssMap_container"> <!--this div is just to keep address and map away from other content-->
+  <div class="address">
+    <span>Address:</span>
+    <address>
+	  Restaurant "Red Dragon"
+	  <br>
+	  Bishops Court 238,
+	  <br>
+	  High Street,
+	  <br> 
+	  Slough,
+	  <br> 
+	  SL1 1JU.
+      <br>
+      <b>Phone : +447766394489</b>
+    </address>
+    <br>
+    <span>We are open:</span>
+    <br>
+    <b>Mon-Sun: 11:00 - 22:00</b>
+  </div>
+
+<div id="map" style="width: 50em; height: 25em;"></div>
+
+</div>
+</div>
+
+
+
+
+<!-- footer -->
+<footer>
+<div class="footer_container">
+
+
+
+<div class="site_info">
+  <span>© 2017</span> 
+  <a href="home.html" >Chinese Restorant Red Dragon.</a>
+  <a href="http://www.mantasramanauskas.com/">Web designed by M.R.</a>
+</div>
+
+<!-- logo -->
+<img class="footer_logo" alt="logo" src="footer_logo.jpg"/>
+
+<!-- footer fb icon-->
+
+<div class="footer_facebook_icon">
+  <a href="#" class="fa" style="font-size:2em">&#xf09a;</a> 
+</div>
+
+</div>
+
+</footer>
+
+</body>
+
+
+
+
+
+
+
+
